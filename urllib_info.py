@@ -41,11 +41,11 @@ postdata = urllib.urlencode({
     'password':'why888',
     'continueURI':'http://www.verycd.com/',
     'fk':'',
-    'login_submit':'登录'  
+    'login_submit':'登录'
 })
 
 headers = {  
-    'User-Agent':'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.1.6) Gecko/20091201 Firefox/3.5.6',
+    'User-Agent':'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.1.6) Gecko/20091201 Firefox/3.7',
     'Referer':'http://www.cnbeta.com/articles'  
 }
 
