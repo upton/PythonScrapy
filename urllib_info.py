@@ -24,6 +24,12 @@ redirected = response.geturl() == my_url
 print response.read()  
 print redirected  
 
+my_url = 'http://money.finance.sina.com.cn/q/view/newFLJK.php?param=industry'  
+response = urllib2.urlopen(my_url, timeout=3)  
+redirected = response.geturl() == my_url
+print response.read()  
+print redirected  
+
 
 cookie = cookielib.CookieJar()  
 opener = urllib2.build_opener(urllib2.HTTPCookieProcessor(cookie))  
